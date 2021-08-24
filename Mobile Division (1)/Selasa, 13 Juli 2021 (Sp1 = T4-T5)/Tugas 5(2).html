@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tugas Sp1 - 5</title>
+</head>
+<body>
+<script>
+    var nama = prompt("Masukan Nama Kamu");
+    var nilai = prompt("Masukan Nilai Yang Anda Dapatkan:");
+    var rangking = "";
+
+    if (nilai >= 90){
+        rangking = "(A) 😃"
+      document.write("<h2>" + `Berhasil Mendapatkan Grade ${rangking}` + "<p>")
+    } else if(nilai >= 80) {
+        rangking = "(B) 😃"
+       document.write("<h2>" + `Berhasil Mendapatkan Grade ${rangking}` + "<p>")
+    } else if(nilai >= 60) {
+        rangking = "(C) 😥"
+       document.write("<h2>" + `Berhasil Mendapatkan Grade ${rangking}` + "<p>")
+       document.write("<h2>" + `Jangan Putus Asa Yah Tetap Semangat dan mencoba lagi 🤗` + "<p>")
+    } else if(nilai >= 30) {
+        rangking = "(D) 😥"
+       document.write("<h2>" + `Berhasil Mendapatkan Grade ${rangking}` + "<p>")
+       document.write("<h2>" + `Jangan Putus Asa Yah Tetap Semangat dan mencoba lagi 🤗` + "<p>")
+    } else if(nilai <= 30) {
+        rangking = "(D) 😥"
+       document.write("<h2>" + `Berhasil Mendapatkan Grade ${rangking}` + "<p>")
+       document.write("<h2>" + `Jangan Putus Asa Yah Tetap Semangat dan mencoba lagi 🤗` + "<p>")
+    } 
+    //document.write(`<p>Anda Mendapatkan Grade: ${rangking} </p>`);
+</script>
+</body>
+</html>

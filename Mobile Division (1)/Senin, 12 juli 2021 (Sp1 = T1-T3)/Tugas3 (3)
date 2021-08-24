@@ -1,0 +1,7 @@
+1. Mulai
+2. masukkan username dan password "Admin"
+3. Jika salah akan muncul "user name atau password salah" dan akan kembali ke A yaitu kembali memasukkan username dan password yaitu “admin”.
+4. Terdapat percabangan apabila user name atau password salah, dengan kondisi jika gagal sama dengan 3 atau lebih maka akan langsung muncul “Anda diblock dan tidak boleh masuk”, dan apabila masih belum sama dengan 3 maka akan kembali ke A.
+5. Apabila user name atau password benar maka akan langsung masuk ke proses 
+6. selesai
+

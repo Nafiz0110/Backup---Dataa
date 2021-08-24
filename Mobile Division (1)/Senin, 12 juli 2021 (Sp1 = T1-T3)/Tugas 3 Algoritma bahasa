@@ -1,0 +1,21 @@
+Jika total pembelian >= dan jumlah barang > 5 maka bonusnya setrika 
+Jika total pembelian >= dan jumlah barang > 3 maka bonusnya payung 
+Jika total pembelian >= dan jumlah barang > 2 maka bonusnya pena 
+Selain itu tidak mendapatkan bonus
+
+1. Mulai
+2. Inisialisai t=total, j=jumlah
+3. Masukkan t, j
+4. Jika t >= dan j > 5 bernilai BENAR 
+--> maka tampilkan di layar “anda mendapat bonus setrika”.
+5. Jika t >= dan j > 5 bernilai SALAH 
+--> maka lakukan langkah 6.
+6. Jika t >= dan j > 3 bernilai BENAR 
+--> maka tampilkan di layar “anda mendapat bonus payung”.
+7. Jika t >= dan j > 3 bernilai SALAH 
+--> maka lakukan Langkah 8.
+8. Jika t >= dan j > 2 bernilai BENAR 
+--> maka tampilkan di layar “anda mendapat bonus pena”
+9. Jika t >= dan j > 2 bernilai SALAH 
+--> maka tampilkan di layar “maaf anda tidak mendapatkan bonus”
+10. Selesai
